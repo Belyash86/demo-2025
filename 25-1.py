@@ -11,3 +11,4 @@ while k < 5:
         print(n, m(n))
         k += 1
     n += 1
+
