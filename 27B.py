@@ -8,7 +8,7 @@ centroids = [[],[],[]]
 for n in range(3):
     cl = clusters[n]
     min_dist = float('inf')
-    for i in range(len(cl)-1):
+    for i in range(len(cl)):
         dist = sum(d(cl[i], star) for star in cl)
         if dist < min_dist:
             min_dist = dist
